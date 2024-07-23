@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DARPvinci's</title>
+    <link rel="stylesheet" href="css/sneakers.css" />
+    <link rel="stylesheet" href="css/styl.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Work+Sans:ital,wght@0,500;0,700;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <header>
+      <a href="#home" class="logo"
+        ><img
+          src="DATABASEFOTO/LOGO/IMG_20231204_093553-removebg-preview.png"
+          alt=""
+      /></a>
+      <ul class="navmenu">
+        <li><a href="#home" style="text-decoration: none">home</a></li>
+        <li>
+          <a href="#product" style="text-decoration: none">homemade</a>
+        </li>
+        <li><a href="#sneakers" style="text-decoration: none">sneakers</a></li>
+        <li><a href="products.php" style="text-decoration: none">shop</a></li>
+      </ul>
+
+      <div class="nav-icon">
+        <a href="login.php"><i class="bx bx-user"></i></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+
+    <section id="home" class="main-home">
+      <div class="main-text">
+        <h5>Darpvinci Collection</h5>
+        <h1>New Homemade <br />Collection</h1>
+        <p>Quality, Comfort, Affordable, Prices, Only Here!</p>
+        <a href="products.php" class="main-btn"
+          >Shop Now <i class="bx bx-right-arrow-alt"></i
+        ></a>
+      </div>
+      <div class="down-arrow">
+        <a href="#product" class="down"><i class="bx bx-down-arrow-alt"></i></a>
+      </div>
+    </section>
+
+    <!--HOMEMADE-->
+    <section class="trending-product" id="product">
+      <div class="center-text">
+        <h2>Our Homemade <span>Products</span></h2>
+      </div>
+      <div class="products">
+        <div class="row">
+          <img src="DATABASEFOTO/DATABASE ETALASE/etalase1.png" alt="" />
+          <div class="product-text">
+            <h5>New</h5>
+          </div>
+          <div class="ratting">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <div class="price">
+            <h4>Semi Formal Set</h4>
+            <p>$10 - $25</p>
+            <a href="products.php"
+              ><button type="button" class="btn btn-dark">
+                See more set
+              </button></a
+            >
+          </div>
+        </div>
+
+        <div class="row">
+          <img src="DATABASEFOTO/DATABASE ETALASE/etalase2.png" alt="" />
+          <div class="product-text">
+            <h5>Hot</h5>
+          </div>
+          <div class="ratting">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <div class="price">
+            <h4>Casual Set</h4>
+            <p>$10 - $15</p>
+            <a href="products.php"
+              ><button type="button" class="btn btn-dark">
+                See more set
+              </button></a
+            >
+          </div>
+        </div>
+
+        <div class="row">
+          <img src="DATABASEFOTO/DATABASE ETALASE/etalase3.png" alt="" />
+          <div class="product-text">
+            <h5>Sale</h5>
+          </div>
+          <div class="ratting">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <div class="price">
+            <h4>Vintage Set</h4>
+            <p>$15 - $20</p>
+            <a href="products.php"
+              ><button type="button" class="btn btn-dark">
+                See more set
+              </button></a
+            >
+          </div>
+        </div>
+
+        <div class="row">
+          <img src="DATABASEFOTO/DATABASE ETALASE/etalase4.png" alt="" />
+          <div class="product-text">
+            <h5>New</h5>
+          </div>
+          <div class="ratting">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <div class="price">
+            <h4>Oversize Set</h4>
+            <p>$12 - $15</p>
+            <a href="products.php"
+              ><button type="button" class="btn btn-dark">
+                See more set
+              </button></a
+            >
+          </div>
+        </div>
+
+        <div class="row">
+          <img src="DATABASEFOTO/DATABASE ETALASE/etalase5.png" alt="" />
+          <div class="ratting">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bx-star"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <div class="price">
+            <h4>Semi Casual Set</h4>
+            <p>$8 - $15</p>
+            <a href="products.php"
+              ><button type="button" class="btn btn-dark">
+                See more set
+              </button></a
+            >
+          </div>
+        </div>
+
+        <div class="row">
+          <img src="DATABASEFOTO/DATABASE ETALASE/etalase6.png" alt="" />
+          <div class="ratting">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+            <i class="bx bx-star"></i>
+          </div>
+          <div class="price">
+            <h4>Riding Set</h4>
+            <p>$20 - $25</p>
+            <a href="products.php"
+              ><button type="button" class="btn btn-dark">
+                See more set
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--SNEAKERS-->
+    <section>
+      <h2 id="sneakers" style="text-align: center">SNEAKERS</h2>
+      <h2 id="nike">Nike</h2>
+      <div class="row">
+        <div class="col-md-4 mt-3">
+          <div class="sneakers">
+            <div class="card">
+              <div class="imgBx">
+                <img src="DATABASEFOTO/imagesneakers/nike1.png" />
+              </div>
+              <div class="contentBx">
+                <h2>Nike Shoes 1</h2>
+                <div class="size">
+                  <h3>Size :</h3>
+                  <span>37</span>
+                  <span>41</span>
+                  <span>42</span>
+                  <span>43</span>
+                </div>
+                <a href="products.php">Order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3">
+          <div class="sneakers">
+            <div class="card">
+              <div class="imgBx">
+                <img src="DATABASEFOTO/imagesneakers/nike2.png" />
+              </div>
+              <div class="contentBx">
+                <h2>Nike Shoes 2</h2>
+                <div class="size">
+                  <h3>Size :</h3>
+                  <span>31</span>
+                  <span>33</span>
+                  <span>37</span>
+                  <span>40</span>
+                </div>
+                <a href="products.php">Order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3">
+          <div class="sneakers">
+            <div class="card">
+              <div class="imgBx">
+                <img src="DATABASEFOTO/imagesneakers/nike3.png" />
+              </div>
+              <div class="contentBx">
+                <h2>Nike Shoes 3</h2>
+                <div class="size">
+                  <h3>Size :</h3>
+                  <span>35</span>
+                  <span>36</span>
+                  <span>37</span>
+                  <span>38</span>
+                </div>
+                <a href="products.php">Order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 id="converse">Converse</h2>
+      <div class="row">
+        <div class="col-md-4 mt-3">
+          <div class="sneakers">
+            <div class="card">
+              <div class="imgBx">
+                <img src="DATABASEFOTO/imagesneakers/conss1.png" />
+              </div>
+              <div class="contentBx">
+                <h2>Converse Shoes 1</h2>
+                <div class="size">
+                  <h3>Size :</h3>
+                  <span>32</span>
+                  <span>33</span>
+                  <span>39</span>
+                  <span>42</span>
+                </div>
+                <a href="products.php">Order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3">
+          <div class="sneakers">
+            <div class="card">
+              <div class="imgBx">
+                <img src="DATABASEFOTO/imagesneakers/conss2.png" />
+              </div>
+              <div class="contentBx">
+                <h2>Converse Shoes 2</h2>
+                <div class="size">
+                  <h3>Size :</h3>
+                  <span>33</span>
+                  <span>36</span>
+                  <span>40</span>
+                  <span>43</span>
+                </div>
+                <a href="products.php">Order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3">
+          <div class="sneakers">
+            <div class="card">
+              <div class="imgBx">
+                <img src="DATABASEFOTO/imagesneakers/conss3.png" />
+              </div>
+              <div class="contentBx">
+                <h2>Converse Shoes 3</h2>
+                <div class="size">
+                  <h3>Size :</h3>
+                  <span>40</span>
+                  <span>42</span>
+                  <span>45</span>
+                  <span>46</span>
+                </div>
+                <a href="products.php">Order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 id="vans">Vans</h2>
+      <div class="row">
+        <div class="col-md-4 mt-3">
+          <div class="sneakers">
+            <div class="card">
+              <div class="imgBx">
+                <img src="DATABASEFOTO/imagesneakers/vanss1.png" />
+              </div>
+              <div class="contentBx">
+                <h2>Vans Shoes 1</h2>
+                <div class="size">
+                  <h3>Size :</h3>
+                  <span>35</span>
+                  <span>37</span>
+                  <span>39</span>
+                  <span>40</span>
+                </div>
+                <a href="products.php">Order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3">
+          <div class="sneakers">
+            <div class="card">
+              <div class="imgBx">
+                <img src="DATABASEFOTO/imagesneakers/vanss2.png" />
+              </div>
+              <div class="contentBx">
+                <h2>Vans Shoes 2</h2>
+                <div class="size">
+                  <h3>Size :</h3>
+                  <span>40</span>
+                  <span>42</span>
+                  <span>44</span>
+                  <span>46</span>
+                </div>
+                <a href="products.php">Order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3">
+          <div class="sneakers">
+            <div class="card">
+              <div class="imgBx">
+                <img src="DATABASEFOTO/imagesneakers/vanss3.png" />
+              </div>
+              <div class="contentBx">
+                <h2>Vans Shoes 3</h2>
+                <div class="size">
+                  <h3>Size :</h3>
+                  <span>39</span>
+                  <span>42</span>
+                  <span>45</span>
+                  <span>47</span>
+                </div>
+                <a href="products.php">Order</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CLIENT REVIEWS-->
+    <section class="client-reviews">
+      <div class="reviews">
+        <h3>Client Reviews</h3>
+        <img src="DATABASEFOTO/REVIEW/profile-1.jpg" />
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
+          eligendi fugit vel ducimus ipsum vitae cumque nemo, magni labore
+          numquam distinctio temporibus sit accusantium similique esse nihil
+          corporis, quaerat architecto!
+        </p>
+        <h2>Fano Oktaviano</h2>
+        <p>Mahasiswa</p>
+      </div>
+    </section>
+
+    <!--COMING SOON-->
+    <div class="container text-center">
+      <h2 style="margin-top: 15px">COMING SOON</h2>
+      <div class="row">
+        <div class="col-md-4 mt-3">
+          <h3 class="mb-2">Nike</h3>
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="DATABASEFOTO/NIKE COMING SOON/nike1.png"
+                  class="text-center w-10"
+                  alt="1"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="DATABASEFOTO/NIKE COMING SOON/nike2.png"
+                  class="text-center w-10"
+                  alt="2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="DATABASEFOTO/NIKE COMING SOON/nike3.png"
+                  class="text-center w-10"
+                  alt="3"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="DATABASEFOTO/NIKE COMING SOON/nike4.png"
+                  class="text-center w-10"
+                  alt="3"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="DATABASEFOTO/NIKE COMING SOON/nike5.png"
+                  class="text-center w-10"
+                  alt="3"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="DATABASEFOTO/NIKE COMING SOON/nike6.png"
+                  class="text-center w-10"
+                  alt="3"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-3">
+          <h3 class="mb-2">Converse</h3>
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="DATABASEFOTO/CONVERSE COMING SOON/cons1.png"
+                  class="text-center w-10"
+                  alt="1"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="DATABASEFOTO/CONVERSE COMING SOON/cons2.png"
+                  class="text-center w-10"
+                  alt="2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="DATABASEFOTO/CONVERSE COMING SOON/cons3.png"
+                  class="text-center w-10"
+                  alt="3"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="DATABASEFOTO/CONVERSE COMING SOON/cons4.png"
+                  class="text-center w-10"
+                  alt="2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="DATABASEFOTO/CONVERSE COMING SOON/cons5.png"
+                  class="text-center w-10"
+                  alt="2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="DATABASEFOTO/CONVERSE COMING SOON/cons6.png"
+                  class="text-center w-10"
+                  alt="2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-3">
+          <h3 class="mb-2">Vans</h3>
+          <div
+            id="comingsoon"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="DATABASEFOTO/VANS COMING SOON/vans1.png"
+                  class="text-center w-10"
+                  alt="1"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="DATABASEFOTO/VANS COMING SOON/vans2.png"
+                  class="text-center w-10"
+                  alt="2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="DATABASEFOTO/VANS COMING SOON/vans3.png"
+                  class="text-center w-10"
+                  alt="3"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="DATABASEFOTO/VANS COMING SOON/vans4.png"
+                  class="text-center w-10"
+                  alt="2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="DATABASEFOTO/VANS COMING SOON/vans5.png"
+                  class="text-center w-10"
+                  alt="2"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="DATABASEFOTO/VANS COMING SOON/vans6.png"
+                  class="text-center w-10"
+                  alt="2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--BLOGS-->
+    <section class="Update-news">
+      <div class="up-center-text">
+        <h2 id="blog">Darpvinci's Blog</h2>
+      </div>
+      <div class="update-cart">
+        <div class="cart">
+          <img src="DATABASEFOTO/BLOGS/20231206_071454_0000.png" alt="" />
+          <h5>20 July 2023</h5>
+          <h4>Bersantai dengan sneakers impian</h4>
+          <h6>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            eligendi fugit vel ducimus ipsum vitae cumque nemo, magni labore
+            numquam distinctio temporibus sit accusantium similique esse nihil
+            corporis, quaerat architecto!
+          </h6>
+        </div>
+
+        <div class="cart">
+          <img src="DATABASEFOTO/BLOGS/20231206_071454_0001.png" alt="" />
+          <h5>26 Sep 2023</h5>
+          <h4>Ciptakan momen dengan sahabat</h4>
+          <h6>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            eligendi fugit vel ducimus ipsum vitae cumque nemo, magni labore
+            numquam distinctio temporibus sit accusantium similique esse nihil
+            corporis, quaerat architecto!
+          </h6>
+        </div>
+
+        <div class="cart">
+          <img src="DATABASEFOTO/BLOGS/20231206_071454_0002.png" alt="" />
+          <h5>28 Nov 2023</h5>
+          <h4>Kesan elegant saat bertemu client</h4>
+          <h6>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat
+            eligendi fugit vel ducimus ipsum vitae cumque nemo, magni labore
+            numquam distinctio temporibus sit accusantium similique esse nihil
+            corporis, quaerat architecto!
+          </h6>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+    <section class="contact">
+      <div class="contact-info">
+        <div class="first-info">
+          <img
+            src="DATABASEFOTO/LOGO/IMG_20231204_093553-removebg-preview.png"
+            alt=""
+          />
+          <p>Jalan Sambiroto, Kota Semarang, Jawa Tengah</p>
+          <p>0891212121</p>
+          <p>darpvinci@gmail.com</p>
+          <div class="social-icon">
+            <a href="https://www.facebook.com/dariel.paulus.3?mibextid=hIlR13"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href="https://x.com/dokdokenjoyer?s=09"
+              ><i class="bx bxl-twitter"></i
+            ></a>
+            <a href="https://instagram.com/robin_paulus"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/robinpaulus"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+          </div>
+        </div>
+        <div class="second-info">
+          <h4>Darpvinci</h4>
+          <a href="PDF/SIZE GUIDE.pdf"><p>Size Guide</p></a>
+          <a href="#blog"><p>Blog</p></a>
+          <a href="login.php"><p>Login</p></a>
+        </div>
+        <div class="third-info">
+          <h4>Shop</h4>
+          <a href="#homemade"><p>Homemade</p></a>
+          <a href="#nike"><p>Nike</p></a>
+          <a href="#converse"><p>Converse</p></a>
+          <a href="#vans"><p>Vans</p></a>
+        </div>
+        <div class="fourth-info">
+          <h4>CEO</h4>
+          <a href="ceo.php"><p>About CEO</p></a>
+        </div>
+      </div>
+    </section>
+    <div class="end-text">
+      <p>Copyright @2023. All Rights Reserved By Darpvinci.</p>
+    </div>
+
+    <script src="js/java.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
